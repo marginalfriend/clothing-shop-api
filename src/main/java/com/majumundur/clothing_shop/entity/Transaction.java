@@ -1,7 +1,7 @@
-package com.majumundur.clothing_shop.Entity;
+package com.majumundur.clothing_shop.entity;
 
-import com.majumundur.clothing_shop.Constants.EntityName;
-import com.majumundur.clothing_shop.Entity.Enum.PaymentStatus;
+import com.majumundur.clothing_shop.constant.EntityName;
+import com.majumundur.clothing_shop.entity.Enum.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

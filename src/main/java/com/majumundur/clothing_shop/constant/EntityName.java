@@ -1,4 +1,4 @@
-package com.majumundur.clothing_shop.Constants;
+package com.majumundur.clothing_shop.constant;
 
 public class EntityName {
     public static final String ACCOUNT = "m_account";
