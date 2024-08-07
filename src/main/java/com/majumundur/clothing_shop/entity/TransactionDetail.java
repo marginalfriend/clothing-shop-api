@@ -11,7 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class TransactionDetails {
+public class TransactionDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "transaction_details_seq")
     @SequenceGenerator(name = "transaction_details_seq", sequenceName = "transaction_details_seq", allocationSize = 1)

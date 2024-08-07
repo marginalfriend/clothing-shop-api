@@ -23,9 +23,6 @@ public class User {
     @Column(nullable = false)
     private String name;
 
-    @Column(name = "phone_number", nullable = false)
-    private String phoneNumber;
-
     @Column(nullable = false)
     private Integer points;
 }
